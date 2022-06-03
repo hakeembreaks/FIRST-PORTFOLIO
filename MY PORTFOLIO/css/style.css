@@ -1,0 +1,95 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    padding: 0%;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul{
+   margin: 0px;
+   padding: 0px;
+   list-style-type: none;
+}
+
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu > ul > li> a:hover{
+    background-color: yellow;
+}
+h1 {
+    font-size: 5em;
+    color: teal;
+    font-family: sans-serif;
+}
+
+.self {
+    font-size: 1.35em;
+    color: teal;
+}
+.wave > img{
+    width: 0.99em;
+    margin-left: 0.7px;
+}
+img{
+    width: 66%;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.copy > p{
+    margin: 0px;
+}
+.contact-body{
+    margin-left: 70px;
+    
+}
+.navbar img{
+    width: 5%;
+}
+.contact h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #141850;
+    font-family: sans-serif;
+
+}
+.contact a{
+    text-decoration: none;
+     color: #ed7966;
+}
+.about-essay p{
+    color: #141850;
+}
+.contact p{
+    color:#141850 ;
+}
+.about{
+    font-family: sans-serif;
+    color: #303179;;
+}
+.about-essay a{
+    text-decoration: none;
+    color: #ed7966;
+    
+}
