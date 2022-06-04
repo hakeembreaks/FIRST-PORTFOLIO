@@ -11,15 +11,19 @@ body{
 }
 .main-menu{
     background-color: teal;
+   
 }
 .main-menu > ul{
    margin: 0px;
    padding: 0px;
    list-style-type: none;
+   
 }
 
 .main-menu > ul > li{
     display: inline-block;
+   
+    
 }
 .main-menu > ul > li > a{
     color: white;
@@ -41,23 +45,19 @@ h1 {
 .self {
     font-size: 1.35em;
     color: teal;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.wave{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .wave > img{
     width: 0.99em;
     margin-left: 0.7px;
 }
 img{
-    width: 66%;
-}
-.copy{
-    font-family: sans-serif;
-    padding: 25px;
-    text-align: center;
-    background-color: black;
-    color: white;
-}
-.copy > p{
-    margin: 0px;
+    width: 55%;
 }
 .contact-body{
     margin-left: 70px;
@@ -93,13 +93,28 @@ img{
     color: #ed7966;
     
 }
-
-@media only screen and (min-width: 550px) {
-	main {
-		display: flex;
-	}
-
-	aside {
-		margin-left: 2%;
-	}
+.content{
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
+.copy{
+    font-family: sans-serif;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position:fixed; bottom: 0;
+    width: 100%;
+}
+.copy p{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
